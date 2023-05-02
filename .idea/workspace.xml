@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.d3vshub.bom-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.d3vshub.bom-module/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/bom-module/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-administration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-administration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
