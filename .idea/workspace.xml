@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration-module/myFlywayConfig.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-administration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-administration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integration-module/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,22 +38,46 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OcDcodUePND1vkVgEt5DeGVikC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/gszaw/OneDrive/Dokumenty/GitHub/deliver-company/delivery/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src\main\java\org\example\delivery" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.delivery.Application" />
+      <module name="infrastructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
