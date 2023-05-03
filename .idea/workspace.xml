@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom-module/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-module/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/application/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/application/src/main/java/org/example/delivery/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/domain/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/domain/src/main/java/org/example/delivery/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/infrastructure/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-administration/infrastructure/src/main/java/org/example/delivery/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration-module/myFlywayConfig.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration-module/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
