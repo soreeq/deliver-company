@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+
+
     <groupId>com.d3vshub.delivery</groupId>
     <artifactId>infrastructure</artifactId>
 
@@ -17,6 +19,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+<!--                <version>9.17.0</version>-->
+                <configuration>
+                    <url>jdbc:h2:mem:test</url>
+                    <user>sa</user>
+                    <password></password>
+                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -47,12 +59,18 @@
                 <artifactId>h2</artifactId>
                 <scope>runtime</scope>
             </dependency>
-        </dependencies>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-maven-plugin</artifactId>
+            <version>9.17.0</version>
+        </dependency>
+
+    </dependencies>
 
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
 </project>
