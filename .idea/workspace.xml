@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/db/migration/V1_0__create_employee_schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -42,6 +42,10 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-maven-plugin -->
