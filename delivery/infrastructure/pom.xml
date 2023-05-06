@@ -42,10 +42,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-core</artifactId>
-            </dependency>
         </dependencies>
     </dependencyManagement>
     <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-maven-plugin -->
@@ -68,6 +64,18 @@
             <artifactId>flyway-maven-plugin</artifactId>
             <version>9.17.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.2.2.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.MadaraFsl</groupId>
+            <artifactId>HibernateUtil</artifactId>
+            <version>1.0</version>
+        </dependency>
+
 
     </dependencies>
 
