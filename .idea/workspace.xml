@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/CustomerEntityRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/DeliveryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/delivery.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
     </list>
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,8 +55,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src\main\resources" />
+      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src\main\java\org\example\delivery" />
     </key>
