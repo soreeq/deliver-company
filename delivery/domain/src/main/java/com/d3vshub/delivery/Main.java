@@ -1,4 +1,4 @@
-package org.example.delivery;
+package com.d3vshub.delivery;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.delivery;
+package com.d3vshub.delivery;
 
 import org.springframework.stereotype.Service;
 

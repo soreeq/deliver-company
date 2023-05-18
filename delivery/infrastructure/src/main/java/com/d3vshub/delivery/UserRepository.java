@@ -1,4 +1,4 @@
-package org.example.delivery;
+package com.d3vshub.delivery;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

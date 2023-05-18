@@ -1,0 +1,110 @@
+swagger: '2.0'
+info:
+  title: Order Management API
+  version: 1.0.0
+paths:
+  /api/orders:
+    post:
+      summary: Place a new order
+      # Dodaj tutaj informacje o ciele zapytania (request body), jeśli są wymagane
+      responses:
+        '200':
+          description: OK
+  /api/orders/{orderId}:
+    get:
+      summary: Retrieve order details by order ID
+      parameters:
+        - name: orderId
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+    delete:
+      summary: Cancel an order by order ID
+      parameters:
+        - name: orderId
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+  /api/customers/{customerId}/orders:
+    get:
+      summary: Retrieve order history for a specific user
+      parameters:
+        - name: customerId
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+  /api/customers:
+    get:
+      summary: Get a list of all customers
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Add a new customer
+      # Dodaj tutaj informacje o ciele zapytania (request body), jeśli są wymagane
+      responses:
+        '200':
+          description: OK
+  /api/customers/{id}:
+    get:
+      summary: Get details of a specific customer
+      parameters:
+        - name: id
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+    put:
+      summary: Update an existing customer
+      parameters:
+        - name: id
+          in: path
+          type: string
+          required: true
+      # Dodaj tutaj informacje o ciele zapytania (request body), jeśli są wymagane
+      responses:
+        '200':
+          description: OK
+    delete:
+      summary: Delete a customer
+      parameters:
+        - name: id
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+  /api/orders/{orderId}/tracking:
+    get:
+      summary: Retrieve real-time tracking information for an order
+      parameters:
+        - name: orderId
+          in: path
+          type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+    put:
+      summary: Update the status and location of an order during delivery
+      parameters:
+        - name: orderId
+          in: path
+          type: string
+          required: true
+      # Dodaj tutaj informacje o ciele zapytania (request body), jeśli są wymagane
+      responses:
+        '200':
+          description: OK
