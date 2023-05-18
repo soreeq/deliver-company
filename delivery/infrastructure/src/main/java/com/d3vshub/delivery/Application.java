@@ -10,10 +10,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        TemporalValues temporalValues = new TemporalValues();
-        temporalValues.setSqlDate(java.sql.Date.valueOf("2017-11-15"));
-        temporalValues.setSqlTime(java.sql.Time.valueOf("15:30:14"));
-        temporalValues.setSqlTimestamp(
-                java.sql.Timestamp.valueOf("2017-11-15 15:30:14.332"));
     }
 }

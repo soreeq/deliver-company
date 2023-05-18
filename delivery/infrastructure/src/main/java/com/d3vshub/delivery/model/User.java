@@ -1,4 +1,4 @@
-package com.d3vshub.delivery;
+package com.d3vshub.delivery.model;
 
 
 import jakarta.persistence.*;

@@ -1,5 +1,7 @@
-package com.d3vshub.delivery;
+package com.d3vshub.delivery.services;
 
+import com.d3vshub.delivery.model.Customer;
+import com.d3vshub.delivery.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

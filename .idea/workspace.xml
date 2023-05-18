@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/delivery/application/src/main/java/org/example/delivery/PetsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/application/src/main/java/org/example/delivery/PetsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/application/src/main/java/org/example/delivery/PetsApiDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/application/src/main/resources/delivery.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/DeliveryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/org/example/delivery/DeliveryApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/domain/src/main/java/com/d3vshub/delivery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/domain/src/main/java/com/d3vshub/delivery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/CustomerEntityRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/DeliveryApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/TemporalValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,45 +52,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gszaw/OneDrive/Dokumenty/GitHub/deliver-company/delivery/pom.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/gszaw/OneDrive/Dokumenty/GitHub/deliver-company/delivery/application/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.d3vshub.delivery" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\application\src" />
+      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\domain\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\application\src\main\resources" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src\main\resources" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery" />
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company" />
-      <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\infrastructure\src\main\java\org\example\delivery" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.delivery.Application">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delivery.Main" />
-      <module name="application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.delivery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.delivery.Application" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.example.delivery.Application" />
-      <module name="infrastructure" />
+  <component name="RunManager" selected="Application.Infrastructure">
+    <configuration name="Infrastructure" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Infrastructure" />
+      <item itemvalue="JUnit.UserEntityRepositoryTest.injectedComponentsAreNotNull" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserEntityRepositoryTest.injectedComponentsAreNotNull" />
       </list>
     </recent_temporary>
