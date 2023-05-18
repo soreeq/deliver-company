@@ -1,6 +1,11 @@
 package com.d3vshub.delivery.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Courier {
+    @Id
     private int customer_id;
     private String first_name;
     private String last_name;

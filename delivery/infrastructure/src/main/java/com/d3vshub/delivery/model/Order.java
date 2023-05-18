@@ -1,9 +1,14 @@
 package com.d3vshub.delivery.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.math.BigDecimal;
 import java.sql.Date;
 
+@Entity
 public class Order {
+    @Id
     private int order_id;
     private int customer_id;
     private Date sqlDateField;
