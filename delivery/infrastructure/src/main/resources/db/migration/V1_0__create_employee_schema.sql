@@ -20,7 +20,7 @@ CREATE TABLE Delivery (
 );
 
 CREATE TABLE Orders (
-  order_id INT NOT NULL PRIMARY KEY,
+  order_id INT PRIMARY KEY,
   customer_id INT NOT NULL,
   order_date DATE NOT NULL,
   total DECIMAL(10,2) NOT NULL,
@@ -31,8 +31,6 @@ CREATE TABLE Orders (
   FOREIGN KEY (courier_id) REFERENCES Couriers(courier_id),
   FOREIGN KEY (delivery_id) REFERENCES Delivery(delivery_id)
 );
-
-
 
 
 CREATE TABLE Tracking (

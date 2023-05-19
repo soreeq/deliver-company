@@ -1,29 +1,67 @@
 package com.d3vshub.delivery.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.time.LocalDate;
 
 @Entity
+@Table(name="Orders")
 public class Order {
     @Id
     private int order_id;
     private int customer_id;
-    private Date sqlDateField;
+    private Date order_date;
 
-    private BigDecimal decimalField;
+    private BigDecimal total;
     private String status;
     private int courier_id;
     private int delivery_id;
 
-    public BigDecimal getDecimalField() {
-        return decimalField;
+    public Order() {
     }
 
-    public void setDecimalField(BigDecimal decimalField) {
-        this.decimalField = decimalField;
+    public Order(int order_id, Customer customer, Date localDate, BigDecimal decimal, String status, Courier courier, Delivery delivery) {
+        this.order_id = order_id;
+        this.customer_id = customer.getCustomer_id();
+        this.order_date = localDate;
+        this.total = decimal;
+        this.status = status;
+        this.courier_id = courier.getId();
+        this.delivery_id = delivery.getDelivery_id();
+    }
+
+    public int getOrder_id() {
+        return order_id;
+    }
+
+    public void setOrder_id(int order_id) {
+        this.order_id = order_id;
+    }
+
+    public int getCustomer_id() {
+        return customer_id;
+    }
+
+    public void setCustomer_id(int customer_id) {
+        this.customer_id = customer_id;
+    }
+
+    public Date getOrder_date() {
+        return order_date;
+    }
+
+    public void setOrder_date(Date order_date) {
+        this.order_date = order_date;
+    }
+
+    public BigDecimal getTotal() {
+        return total;
+    }
+
+    public void setTotal(BigDecimal total) {
+        this.total = total;
     }
 
     public String getStatus() {
@@ -48,29 +86,5 @@ public class Order {
 
     public void setDelivery_id(int delivery_id) {
         this.delivery_id = delivery_id;
-    }
-
-    public int getOrder_id() {
-        return order_id;
-    }
-
-    public void setOrder_id(int order_id) {
-        this.order_id = order_id;
-    }
-
-    public int getCustomer_id() {
-        return customer_id;
-    }
-
-    public void setCustomer_id(int customer_id) {
-        this.customer_id = customer_id;
-    }
-
-    public Date getSqlDateField() {
-        return sqlDateField;
-    }
-
-    public void setSqlDateField(Date sqlDateField) {
-        this.sqlDateField = sqlDateField;
     }
 }

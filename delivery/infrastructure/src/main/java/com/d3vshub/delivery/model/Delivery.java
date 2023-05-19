@@ -5,11 +5,21 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Delivery {
+    public Delivery() {
+    }
+
     @Id
     private int delivery_id;
     private String address;
     private String city;
     private String postal_code;
+
+    public Delivery(int id, String address, String city, String postalCode) {
+        this.delivery_id = id;
+        this.address = address;
+        this.city = city;
+        this.postal_code = postalCode;
+    }
 
     public int getDelivery_id() {
         return delivery_id;
