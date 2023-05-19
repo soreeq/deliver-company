@@ -13,12 +13,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-
-
-/*        Courier courier = new Courier();
-        courier.setFirst_name("test");
-        courier.setCourier_id(1);
-        courier.setLast_name("test2");
-        courier.setEmail("raz@dwa.pl");*/
     }
 }

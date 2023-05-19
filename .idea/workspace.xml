@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/SampleDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/SampleDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Tracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/model/Tracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/DeliveryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/DeliveryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/CourierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/CourierServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/CustomerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/DeliveryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/DeliveryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\application\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.d3vshub.delivery in infrastructure">
+  <component name="RunManager" selected="Application.Infrastructure">
     <configuration name="Infrastructure" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.Application" />
       <module name="infrastructure" />
