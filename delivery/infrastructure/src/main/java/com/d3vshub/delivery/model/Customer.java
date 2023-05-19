@@ -1,5 +1,6 @@
 package com.d3vshub.delivery.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -8,7 +9,8 @@ import jakarta.persistence.Table;
 @Table(name = "Customers")
 public class Customer {
     @Id
-    private int customer_id;
+    @Column(name = "customer_id")
+    private int id;
     private String first_name;
     private String last_name;
     private String email;
@@ -17,18 +19,18 @@ public class Customer {
     }
 
     public Customer(int i, String name, String secondname, String email) {
-        this.customer_id = i;
+        this.id = i;
         this.first_name = name;
         this.last_name = secondname;
         this.email = email;
     }
 
-    public int getCustomer_id() {
-        return customer_id;
+    public int getId() {
+        return id;
     }
 
-    public void setCustomer_id(int customer_id) {
-        this.customer_id = customer_id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirst_name() {

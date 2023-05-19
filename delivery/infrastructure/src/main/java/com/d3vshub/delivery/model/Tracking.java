@@ -21,7 +21,7 @@ public class Tracking {
 
     public Tracking(int id, Order order, Date date, String status) {
         this.id = id;
-        this.order_id = order.getOrder_id();
+        this.order_id = order.getId();
         this.delivery_date = date;
         this.status = status;
     }

@@ -10,7 +10,8 @@ import java.time.LocalDate;
 @Table(name="Orders")
 public class Order {
     @Id
-    private int order_id;
+    @Column(name = "order_id")
+    private int id;
     private int customer_id;
     private Date order_date;
 
@@ -23,21 +24,21 @@ public class Order {
     }
 
     public Order(int order_id, Customer customer, Date localDate, BigDecimal decimal, String status, Courier courier, Delivery delivery) {
-        this.order_id = order_id;
-        this.customer_id = customer.getCustomer_id();
+        this.id = order_id;
+        this.customer_id = customer.getId();
         this.order_date = localDate;
         this.total = decimal;
         this.status = status;
         this.courier_id = courier.getId();
-        this.delivery_id = delivery.getDelivery_id();
+        this.delivery_id = delivery.getId();
     }
 
-    public int getOrder_id() {
-        return order_id;
+    public int getId() {
+        return id;
     }
 
-    public void setOrder_id(int order_id) {
-        this.order_id = order_id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getCustomer_id() {

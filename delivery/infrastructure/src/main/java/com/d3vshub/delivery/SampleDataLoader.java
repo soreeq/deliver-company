@@ -66,5 +66,7 @@ public class SampleDataLoader implements CommandLineRunner {
         Tracking tracking2 = new Tracking(2, order2, Date.valueOf(dateString), "Delivered");
         trackingRepository.save(tracking1);
         trackingRepository.save(tracking2);
+
+        System.out.println(courierRepository.findById(1));
     }
 }

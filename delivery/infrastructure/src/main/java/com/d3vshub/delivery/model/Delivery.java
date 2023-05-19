@@ -1,5 +1,6 @@
 package com.d3vshub.delivery.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -9,24 +10,25 @@ public class Delivery {
     }
 
     @Id
-    private int delivery_id;
+    @Column(name = "delivery_id")
+    private int id;
     private String address;
     private String city;
     private String postal_code;
 
     public Delivery(int id, String address, String city, String postalCode) {
-        this.delivery_id = id;
+        this.id = id;
         this.address = address;
         this.city = city;
         this.postal_code = postalCode;
     }
 
-    public int getDelivery_id() {
-        return delivery_id;
+    public int getId() {
+        return id;
     }
 
-    public void setDelivery_id(int delivery_id) {
-        this.delivery_id = delivery_id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getAddress() {

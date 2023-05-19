@@ -10,5 +10,7 @@ import java.util.List;
 
 @Repository
 public interface DeliveryRepository extends JpaRepository<Delivery, Long> {
+
+    Delivery findById(int id);
     List<Delivery> findAll();
 }
