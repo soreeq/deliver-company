@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/delivery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/delivery.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
