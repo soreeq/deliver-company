@@ -3,7 +3,56 @@ info:
   title: Delivery Management API
   version: 1.0.0
 paths:
-  /customers:
+  /api/orders:
+    post:
+      summary: Place a new order
+      operationId: placeOrder
+      responses:
+        200:
+          description: Successful operation
+
+  /api/orders/{orderId}:
+    get:
+      summary: Retrieve order details by order ID
+      operationId: getOrderById
+      parameters:
+        - name: orderId
+          in: path
+          description: ID of the order to retrieve
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Successful operation
+
+    delete:
+      summary: Cancel an order by order ID
+      operationId: cancelOrderById
+      parameters:
+        - name: orderId
+          in: path
+          description: ID of the order to cancel
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Successful operation
+
+  /api/customers/{customerId}/orders:
+    get:
+      summary: Retrieve order history for a specific user
+      operationId: getOrderHistory
+      parameters:
+        - name: customerId
+          in: path
+          description: ID of the customer
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Successful operation
+
+  /api/customers:
     get:
       summary: Get a list of all customers
       operationId: getAllCustomers
@@ -11,7 +60,14 @@ paths:
         200:
           description: Successful operation
 
-  /customers/{id}:
+    post:
+      summary: Add a new customer
+      operationId: addCustomer
+      responses:
+        200:
+          description: Successful operation
+
+  /api/customers/{id}:
     get:
       summary: Get details of a specific customer
       operationId: getCustomerById
@@ -51,63 +107,7 @@ paths:
         200:
           description: Successful operation
 
-  /orders:
-    post:
-      summary: Place a new order
-      operationId: placeOrder
-      parameters:
-        - name: body
-          in: body
-          description: Order object
-          required: true
-          schema:
-            $ref: "#/definitions/Order"
-      responses:
-        200:
-          description: Successful operation
-
-  /orders/{orderId}:
-    get:
-      summary: Retrieve order details by order ID
-      operationId: getOrderById
-      parameters:
-        - name: orderId
-          in: path
-          description: ID of the order to retrieve
-          required: true
-          type: integer
-      responses:
-        200:
-          description: Successful operation
-
-    delete:
-      summary: Cancel an order by order ID
-      operationId: cancelOrderById
-      parameters:
-        - name: orderId
-          in: path
-          description: ID of the order to cancel
-          required: true
-          type: integer
-      responses:
-        200:
-          description: Successful operation
-
-  /customers/{customerId}/orders:
-    get:
-      summary: Retrieve order history for a specific user
-      operationId: getOrderHistory
-      parameters:
-        - name: customerId
-          in: path
-          description: ID of the customer
-          required: true
-          type: integer
-      responses:
-        200:
-          description: Successful operation
-
-  /orders/{orderId}/tracking:
+  /api/orders/{orderId}/tracking:
     get:
       summary: Retrieve real-time tracking information for an order
       operationId: getOrderTracking
@@ -135,47 +135,47 @@ paths:
           description: Successful operation
 
 definitions:
-  Customer:
-    type: object
-    properties:
-      customerId:
-        type: integer
-      firstName:
-        type: string
-      lastName:
-        type: string
-      email:
-        type: string
+    Customer:
+      type: object
+      properties:
+        customerId:
+          type: integer
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
 
-  Order:
-    type: object
-    properties:
-      orderId:
-        type: integer
-      customerId:
-        type: integer
-      orderDate:
-        type: string
-        format: date
-      total:
-        type: number
-        format: double
-      status:
-        type: string
-      courierId:
-        type: integer
-      deliveryId:
-        type: integer
+    Order:
+      type: object
+      properties:
+        orderId:
+          type: integer
+        customerId:
+          type: integer
+        orderDate:
+          type: string
+          format: date
+        total:
+          type: number
+          format: double
+        status:
+          type: string
+        courierId:
+          type: integer
+        deliveryId:
+          type: integer
 
-  Tracking:
-    type: object
-    properties:
-      trackingId:
-        type: integer
-      orderId:
-        type: integer
-      deliveryDate:
-        type: string
-        format: date
-      status:
-        type: string
+    Tracking:
+      type: object
+      properties:
+        trackingId:
+          type: integer
+        orderId:
+          type: integer
+        deliveryDate:
+          type: string
+          format: date
+        status:
+          type: string

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b10d9dc-3e80-4efb-9b17-e71d18c42a3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/java/com/d3vshub/delivery/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/infrastructure/src/test/java/com/d3vshub/delivery/OpenApiCustomersRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/delivery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infrastructure/src/main/resources/delivery.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +73,7 @@
       <recent name="C:\Users\gszaw\OneDrive\Dokumenty\GitHub\deliver-company\delivery\application\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Infrastructure">
+  <component name="RunManager" selected="JUnit.OpenApiCustomersRequestTest">
     <configuration name="Infrastructure" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.Application" />
       <module name="infrastructure" />
@@ -81,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourierServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenApiCustomersRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="infrastructure" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +90,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.d3vshub.delivery" />
-      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.CourierServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.OpenApiCustomersRequestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenApiDeliveryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="infrastructure" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.d3vshub.delivery" />
-      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.CustomerServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.OpenApiDeliveryIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceTest.customerGetFromDbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenApiDeliveryIntegrationTest.whenReadAll_thenStatusIsNotImplemented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="infrastructure" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.d3vshub.delivery" />
-      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.CustomerServiceTest" />
-      <option name="METHOD_NAME" value="customerGetFromDbTest" />
+      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.OpenApiDeliveryIntegrationTest" />
+      <option name="METHOD_NAME" value="whenReadAll_thenStatusIsNotImplemented" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeliveryServiceTest.deliveryGetFromDbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenApiPetsIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="infrastructure" />
       <extension name="coverage">
         <pattern>
@@ -136,9 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.d3vshub.delivery" />
-      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.DeliveryServiceTest" />
-      <option name="METHOD_NAME" value="deliveryGetFromDbTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.d3vshub.delivery.OpenApiPetsIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Infrastructure" />
-      <item itemvalue="JUnit.CourierServiceTest (1)" />
-      <item itemvalue="JUnit.CustomerServiceTest" />
-      <item itemvalue="JUnit.CustomerServiceTest.customerGetFromDbTest" />
-      <item itemvalue="JUnit.DeliveryServiceTest.deliveryGetFromDbTest" />
+      <item itemvalue="JUnit.OpenApiCustomersRequestTest" />
+      <item itemvalue="JUnit.OpenApiDeliveryIntegrationTest" />
+      <item itemvalue="JUnit.OpenApiDeliveryIntegrationTest.whenReadAll_thenStatusIsNotImplemented" />
+      <item itemvalue="JUnit.OpenApiPetsIntegrationTest" />
       <item itemvalue="JUnit.com.d3vshub.delivery in infrastructure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OpenApiCustomersRequestTest" />
+        <item itemvalue="JUnit.OpenApiDeliveryIntegrationTest" />
+        <item itemvalue="JUnit.OpenApiDeliveryIntegrationTest.whenReadAll_thenStatusIsNotImplemented" />
+        <item itemvalue="JUnit.OpenApiPetsIntegrationTest" />
         <item itemvalue="JUnit.com.d3vshub.delivery in infrastructure" />
-        <item itemvalue="JUnit.DeliveryServiceTest.deliveryGetFromDbTest" />
-        <item itemvalue="JUnit.CustomerServiceTest" />
-        <item itemvalue="JUnit.CustomerServiceTest.customerGetFromDbTest" />
-        <item itemvalue="JUnit.CourierServiceTest (1)" />
       </list>
     </recent_temporary>
   </component>
