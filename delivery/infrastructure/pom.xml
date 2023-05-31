@@ -11,6 +11,12 @@
     <groupId>com.d3vshub.delivery</groupId>
     <artifactId>infrastructure</artifactId>
 
+    <configOptions>
+        <useSpringBoot3>true</useSpringBoot3>
+        <interfaceOnly>true</interfaceOnly>
+        <useSpringController>true</useSpringController>
+    </configOptions>
+
     <build>
         <plugins>
             <plugin>
